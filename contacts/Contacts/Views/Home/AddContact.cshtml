@@ -1,0 +1,38 @@
+
+<div class="modal fade" id="AddContactModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Adicionar contato</h4>
+            </div>
+            <div class="modal-body">
+                <form id="formCadastroBeneficiario" method="post">
+                    <div class="col">
+                        <div class="row form-group">
+                            <label for="Nome">Nome:</label>
+                            <input required="required" type="text" class="form-control" id="Nome" name="Nome" placeholder="Ex.: João" maxlength="50">
+                        </div>
+                        <div class="row form-group">
+                            <label for="Nascimento">Nascimento:</label>
+                            <input required="required" type="text" class="form-control" id="Nascimento" name="Nascimento" placeholder="Ex.: 01/10/2000" maxlength="10">
+                        </div>
+                        <div class="row form-group">
+                            <label for="Sexo">Sexo:</label>
+                            <select required="required" id="Sexo" class="form-control" name="Sexo">
+                                <option value="">Selecione</option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Feminino">Feminino</option>
+                            </select>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success push-right">Incluir</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>

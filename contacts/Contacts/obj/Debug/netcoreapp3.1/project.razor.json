@@ -14407,11 +14407,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Projects\\Medgrupo\\contacts\\Contacts\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "e:\\Projects\\Medgrupo\\contacts\\Contacts\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14414,11 @@
     {
       "FilePath": "e:\\Projects\\Medgrupo\\contacts\\Contacts\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Projects\\Medgrupo\\contacts\\Contacts\\Views\\Home\\AddContact.cshtml",
+      "TargetPath": "Views\\Home\\AddContact.cshtml",
       "FileKind": "mvc"
     },
     {
