@@ -9,11 +9,8 @@ namespace Contacts.Controllers
         [HttpPost]
         public JsonResult Incluir(ContactViewModel model)
         {
-            using (var db = new ContactsContext())
-            {
 
-            }
-            
+
             if (false)
             {
                 return Json(Environment.NewLine);

@@ -17,6 +17,7 @@ namespace Contacts.Models
         /// Nascimento
         /// </summary>
         [Required]
+        //[IsLegalAge(ErrorMessage = "Contato precisa ser maior de idade")]
         public DateTime Nascimento { get; set; }
 
         /// <summary>
